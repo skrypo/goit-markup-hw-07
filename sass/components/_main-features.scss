@@ -1,0 +1,36 @@
+/* -------Features Section------ */
+
+.features__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.features__icons-wrapper {
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background-color: var(--bgrnd-team);
+  margin-bottom: 30px;
+}
+
+.features__item {
+  width: 270px;
+}
+
+.features__title {
+  font-family: var(--main-font);
+  margin-bottom: 9px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  color: var(--title-txt-color);
+}
+
+.features__desc {
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+}
