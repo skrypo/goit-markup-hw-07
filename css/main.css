@@ -58,26 +58,6 @@ button {
   padding-bottom: 94px;
 }
 
-.btn-footer-submit, .hero__btn {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.875;
-  background-color: var(--btn-color);
-  color: var(--bgrnd-color);
-  border-radius: 4px;
-  letter-spacing: 0.06em;
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  -webkit-transition-property: background-color;
-  transition-property: background-color;
-  -webkit-transition-duration: var(--transition-dir);
-          transition-duration: var(--transition-dir);
-  -webkit-transition-timing-function: var(--transition-time-func);
-          transition-timing-function: var(--transition-time-func);
-  -webkit-transition-delay: 0s;
-          transition-delay: 0s;
-}
-
 .section-title {
   letter-spacing: 0.03em;
   font-weight: 700;
@@ -112,6 +92,26 @@ button {
   --transition-dir: 250ms;
   --transition-time-func: cubic-bezier(0.4, 0, 0.2, 1);
   --main-font: "Roboto";
+}
+
+.btn-footer-submit, .hero__btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  background-color: var(--btn-color);
+  color: var(--bgrnd-color);
+  border-radius: 4px;
+  letter-spacing: 0.06em;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
+  -webkit-transition-duration: var(--transition-dir);
+          transition-duration: var(--transition-dir);
+  -webkit-transition-timing-function: var(--transition-time-func);
+          transition-timing-function: var(--transition-time-func);
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
 }
 
 /* -------Header------ */
@@ -177,7 +177,8 @@ button {
   letter-spacing: 0.03em;
   text-decoration: none;
 }
-.logo__hdsecond {
+
+.header-logo__hdsecond {
   color: var(--additional-color-logo);
 }
 
@@ -242,14 +243,14 @@ button {
 .addresses__icon {
   fill: currentColor;
 }
-.addresses__link--tel {
+.addresses__item:last-of-type {
   margin-left: 30px;
 }
 
 /* -------Hero Section------ */
 .hero {
   max-width: 1600px;
-  margin-left: 0 auto;
+  margin: 0 auto;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/bg-img.jpg");
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/bg-img.jpg");
   background-repeat: no-repeat;
